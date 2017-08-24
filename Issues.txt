@@ -1,0 +1,28 @@
+[uni] handling for deleted properties:
+    no longer available on front page
+    no longer available for search
+    keep in my fav
+    send a chat message to all related chat to announce that the property has been removed
+[uni] always display 線上服務櫃檯
+[uni] 30day top price sorting not correct, should be descending
+
+[and] call button does not call
+[and] 意見反應 技術支援 title still not correct
+[and] 條款細則 私隱保障 press back does not go back to app
+[and] search -> star -> sign up -> my favorite -> item duplicated 3 times
+[and/try samsung] not registered -> sign up -> open first message notif -> press back nothing happens
+[and] my properties if there is unread message, hold unread dot
+[and] my properties -> edit -> remove property -> property still sticks around with no content
+[and] my properties should default go to the last opened
+[and] not registered -> search -> property details -> send message -> go to registration page
+[and] my properties -> price bar tag on the left 買 and on the right 您
+
+[ios] disable selfie camera
+[ios] new sell property -> address -> should always show 期 & 座 (and should be editable if the db value is blank)
+[ios] 修改售價 -> 確定 show loading
+[ios] 修改放盤資料 -> 地址 not showing full address with 單位 層 & 室
+[ios] property details not showing full address with 單位 層 & 室
+[ios] 刪除放盤 show loading
+[ios] home icon badge missing
+
+[ser] 修改售價 change, change all negotiation 叫價 price
