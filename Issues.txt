@@ -29,4 +29,3 @@
 
 [ser] 修改售價 change, change all negotiation 叫價 price
 [ser] update address DB
-[ser] testing
