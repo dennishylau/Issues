@@ -6,29 +6,31 @@ P Partially fixed, new information added
 [uni] handling for deleted properties:
     no longer available on front page
     no longer available for search
-    send admin chat message to all related users to announce that the property has been removed
+    send admin chat message with push notification to all related users to announce that the property has been removed
 [uni] 30day top price sorting not correct, should be descending using 買家還價
 *[uni] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
 
 *[and] banner details photos not cached
 *[and] 我的最愛 should not show 0套房, unify with iOS
 U[and] 條款細則 私隱保障 press back does not go back to app
-[and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
 U[and] my properties -> edit -> remove property -> property still sticks around with no content
 *[and] my properties should default go to the last opened like iOS, at least remember before app close
 [and] not registered -> search -> property details -> send message -> go to registration page
 
 *[ios] 我的放盤 -> 封存 -> 完成 change to 取消
 
-*[ser] first admin message duplication
+*[ser] first admin message duplication (see id 213,214 & 216,217)
 *[ser] algolia address without English name not displayed correctly
 *[ser] push notif down
-[ser] algolia address db grouping
 
 [web] update useful advice and useful links
 [web] remove bottom white space
-[web] update phoen number to 23832830
+[web] update phone number to 23832830
 [web] investigate internal server error 500
+
+------------------------Testing------------------------
+[and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
+
 
 ------------------------Resolved------------------------
 [uni] always display 線上服務櫃檯
@@ -48,6 +50,7 @@ U[and] my properties -> edit -> remove property -> property still sticks around 
 [and] my properties -> price bar tag on the left 買 and on the right 您
 [ser] Manual address input should require approval
 [ser] update address DB
+[ser] algolia address db grouping
 [web] update phone section
 
 ------------------------LeaveForNow------------------------
