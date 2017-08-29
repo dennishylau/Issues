@@ -1,22 +1,37 @@
+Legend
+* New: haven't been discussed with dev
+U Unresolved
+P Partially fixed, new information added
+
 [uni] handling for deleted properties:
     no longer available on front page
     no longer available for search
-    keep in my fav
-    send a chat message to all related chat to announce that the property has been removed
-[uni] always display 線上服務櫃檯
-[uni] 30day top price sorting not correct, should be descending
+    send admin chat message to all related users to announce that the property has been removed
+[uni] 30day top price sorting not correct, should be descending using 買家還價
+*[uni] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
 
-[and] call button does not call
-[and] 意見反應 技術支援 title still not correct
-[and] 條款細則 私隱保障 press back does not go back to app
-[and] search -> star -> sign up -> my favorite -> item duplicated 3 times
-[and/try samsung] not registered -> sign up -> open first message notif -> press back nothing happens
-[and] my properties if there is unread message, hold unread dot
-[and] my properties -> edit -> remove property -> property still sticks around with no content
-[and] my properties should default go to the last opened
+*[and] banner details photos not cached
+*[and] 我的最愛 should not show 0套房, unify with iOS
+U[and] 條款細則 私隱保障 press back does not go back to app
+[and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
+U[and] my properties -> edit -> remove property -> property still sticks around with no content
+*[and] my properties should default go to the last opened like iOS, at least remember before app close
 [and] not registered -> search -> property details -> send message -> go to registration page
-[and] my properties -> price bar tag on the left 買 and on the right 您
 
+*[ios] 我的放盤 -> 封存 -> 完成 change to 取消
+
+*[ser] first admin message duplication
+*[ser] algolia address without English name not displayed correctly
+*[ser] push notif down
+[ser] algolia address db grouping
+
+[web] update useful advice and useful links
+[web] remove bottom white space
+[web] update phoen number to 23832830
+[web] investigate internal server error 500
+
+------------------------Resolved------------------------
+[uni] always display 線上服務櫃檯
 [ios] 修改樓盤資料 -> 租約期至 cannot be correctly changed
 [ios] My property complete failure
 [ios] disable selfie camera
@@ -26,6 +41,14 @@
 [ios] property details not showing full address with 單位 層 & 室
 [ios] 刪除放盤 show loading
 [ios] home icon badge missing
-
-[ser] 修改售價 change, change all negotiation 叫價 price
+[and] call button does not call
+[and] my properties if there is unread message, hold unread dot
+[and] 意見反應 技術支援 title still not correct
+[and] search -> star -> sign up -> my favorite -> item duplicated 3 times
+[and] my properties -> price bar tag on the left 買 and on the right 您
+[ser] Manual address input should require approval
 [ser] update address DB
+[web] update phone section
+
+------------------------LeaveForNow------------------------
+[ser] 修改售價 change, change all negotiation 叫價 price
