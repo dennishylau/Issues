@@ -1,4 +1,4 @@
-Legend
+Tags
 * New: haven't been discussed with dev
 U Unresolved
 P Partially fixed, new information added
@@ -8,20 +8,23 @@ P Partially fixed, new information added
     no longer available for search
     send admin chat message with push notification to all related users to announce that the property has been removed
 [uni] 30day top price sorting not correct, should be descending using 買家還價
-*[uni] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
+[uni] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
 
-*[and] banner details photos not cached
-*[and] 我的最愛 should not show 0套房, unify with iOS
+*[and] not following latest price negotiation logic
+[and] banner details photos not cached
+[and] 我的最愛 should not show 0套房, unify with iOS
 U[and] 條款細則 私隱保障 press back does not go back to app
 U[and] my properties -> edit -> remove property -> property still sticks around with no content
-*[and] my properties should default go to the last opened like iOS, at least remember before app close
+[and] my properties should default go to the last opened like iOS, at least remember before app close
 [and] not registered -> search -> property details -> send message -> go to registration page
 
-*[ios] 我的放盤 -> 封存 -> 完成 change to 取消
+*[ios] my fav -> conversation -> press 訊息 ↑ button, the button to the left of the message input box should be 還價 instead of 叫價
+[ios] 我的放盤 -> 封存 -> 完成 change to 取消
 
-*[ser] first admin message duplication (see id 213,214 & 216,217)
-*[ser] algolia address without English name not displayed correctly
-*[ser] push notif down
+[ser] first admin message duplication (see id 213,214 & 216,217)
+[ser] algolia address without English name not displayed correctly
+[ser] push notif down
+[ser] 期 座 number prefix with 0 should not be removed
 
 [web] update useful advice and useful links
 [web] remove bottom white space
