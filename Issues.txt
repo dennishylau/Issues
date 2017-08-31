@@ -3,11 +3,6 @@ Tags
 U Unresolved
 P Partially fixed, new information added
 
-*[uni] not following latest price negotiation logic
-[uni] handling for deleted properties:
-    no longer available on front page
-    no longer available for search
-    send admin chat message with push notification to all related users to announce that the property has been removed
 [uni] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
 
 [and] banner details photos not cached
@@ -15,13 +10,12 @@ P Partially fixed, new information added
 U[and] my properties -> edit -> remove property -> property still sticks around with no content
 U[and] my properties should default go to the last opened like iOS, at least remember before app close
 
-*[ios] my fav -> conversation -> press 訊息 ↑ button, the button to the left of the message input box should be 還價 instead of 叫價
-*[ios] my fav not showing price match
+*[ios] update about -> build number with date
+[ios] my fav -> conversation -> press 訊息 ↑ button, the button to the left of the message input box should be 還價 instead of 叫價
 [ios] 我的放盤 -> 封存 -> 完成 change to 取消
 
 [ser] first admin message duplication (see id 213,214 & 216,217)
 [ser] push notif down
-*[ser] 期 座 number prefix with 0 should not be removed
 
 [web] update useful advice and useful links
 [web] remove bottom white space
@@ -29,32 +23,44 @@ U[and] my properties should default go to the last opened like iOS, at least rem
 [web] investigate internal server error 500
 U[web][and] 條款細則 私隱保障 press back does not go back to app
 
+[cms] Admin Chat layout
+[cms] Property Info layout
+
+------------------------Delay------------------------
+[uni] handling for deleted properties:
+    no longer available on front page
+    no longer available for search
+    send admin chat message with push notification to all related users to announce that the property has been removed
+[ser] 期 座 number prefix with 0 should not be removed
+
 ------------------------Testing------------------------
 [and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
 [uni] 30day top price sorting not correct, should be descending using 買家還價
 [ser] algolia address without English name not displayed correctly
+[uni] not following latest price negotiation logic
 
 ------------------------Resolved------------------------
-[and] not registered -> search -> property details -> send message -> go to registration page
-[uni] always display 線上服務櫃檯
-[ios] 修改樓盤資料 -> 租約期至 cannot be correctly changed
-[ios] My property complete failure
-[ios] disable selfie camera
-[ios] new sell property -> address -> should always show 期 & 座 (and should be editable if the db value is blank)
-[ios] 修改售價 -> 確定 show loading
-[ios] 修改放盤資料 -> 地址 not showing full address with 單位 層 & 室
-[ios] property details not showing full address with 單位 層 & 室
-[ios] 刪除放盤 show loading
-[ios] home icon badge missing
-[and] call button does not call
-[and] my properties if there is unread message, hold unread dot
-[and] 意見反應 技術支援 title still not correct
-[and] search -> star -> sign up -> my favorite -> item duplicated 3 times
-[and] my properties -> price bar tag on the left 買 and on the right 您
-[ser] Manual address input should require approval
-[ser] update address DB
-[ser] algolia address db grouping
-[web] update phone section
+[ser] simplified chinese search not working
+20170830 [and] not registered -> search -> property details -> send message -> go to registration page
+20170830 [uni] always display 線上服務櫃檯
+20170830 [ios] 修改樓盤資料 -> 租約期至 cannot be correctly changed
+20170829 [ios] My property complete failure
+20170829 [ios] disable selfie camera
+20170829 [ios] new sell property -> address -> should always show 期 & 座 (and should be editable if the db value is blank)
+20170829 [ios] 修改售價 -> 確定 show loading
+20170829 [ios] 修改放盤資料 -> 地址 not showing full address with 單位 層 & 室
+20170829 [ios] property details not showing full address with 單位 層 & 室
+20170829 [ios] 刪除放盤 show loading
+20170829 [ios] home icon badge missing
+20170829 [and] call button does not call
+20170829 [and] my properties if there is unread message, hold unread dot
+20170829 [and] 意見反應 技術支援 title still not correct
+20170829 [and] search -> star -> sign up -> my favorite -> item duplicated 3 times
+20170829 [and] my properties -> price bar tag on the left 買 and on the right 您
+20170829 [ser] Manual address input should require approval
+20170829 [ser] update address DB
+20170829 [ser] algolia address db grouping
+20170829 [web] update phone section
 
 ------------------------LeaveForNow------------------------
 [ser] 修改售價 change, change all negotiation 叫價 price
