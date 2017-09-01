@@ -5,12 +5,11 @@ P Partially fixed, new information added
 
 ------------------------Current------------------------
 
-*[uni] my fav -> search not working
+[uni] my fav -> search, after pressing keyboard search button, keep search input field open until cancel is pressed
 
 U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
-U[ios] update about -> build number with date
-*[ios] my fav -> search, press keyboard search button, change tab, back to my fav, stuck
-*[ios] 我的放盤 -> 封存 -> 再按出現 編輯 -> 再按出現 取消
+
+*[and] Soft Deleted property ghosting in my fav
 
 [web] update useful advice and useful links
 [web] remove bottom white space
@@ -37,9 +36,12 @@ U[web][and] 條款細則 私隱保障 press back does not go back to app
 [ser] push notif down
 
 ------------------------Resolved------------------------
-[and] banner details photos not cached
-[and] 我的最愛 should not show 0套房, unify with iOS
-[and] my properties -> edit -> remove property -> property still sticks around with no content
+20170901 [uni] my fav -> search not working
+20170901 [ios] update about -> build number with date
+20170901 [ios] 我的放盤 -> 封存 -> 再按出現 編輯 -> 再按出現 取消
+20170901 [and] banner details photos not cached
+20170901 [and] 我的最愛 should not show 0套房, unify with iOS
+20170901 [and] my properties -> edit -> remove property -> property still sticks around with no content
 20170901 [ios] my fav -> conversation -> press 訊息 ↑ button, the button to the left of the message input box should be 還價 instead of 叫價
 20170831 [ser] simplified chinese search not working
 20170830 [and] not registered -> search -> property details -> send message -> go to registration page
