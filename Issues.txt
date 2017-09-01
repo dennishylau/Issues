@@ -3,19 +3,14 @@ Tags
 U Unresolved
 P Partially fixed, new information added
 
-[uni] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
+------------------------Current------------------------
 
-[and] banner details photos not cached
-[and] 我的最愛 should not show 0套房, unify with iOS
-U[and] my properties -> edit -> remove property -> property still sticks around with no content
-U[and] my properties should default go to the last opened like iOS, at least remember before app close
+*[uni] my fav -> search not working
 
-*[ios] update about -> build number with date
-[ios] my fav -> conversation -> press 訊息 ↑ button, the button to the left of the message input box should be 還價 instead of 叫價
-[ios] 我的放盤 -> 封存 -> 完成 change to 取消
-
-[ser] first admin message duplication (see id 213,214 & 216,217)
-[ser] push notif down
+U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
+U[ios] update about -> build number with date
+*[ios] my fav -> search, press keyboard search button, change tab, back to my fav, stuck
+*[ios] 我的放盤 -> 封存 -> 再按出現 編輯 -> 再按出現 取消
 
 [web] update useful advice and useful links
 [web] remove bottom white space
@@ -23,24 +18,30 @@ U[and] my properties should default go to the last opened like iOS, at least rem
 [web] investigate internal server error 500
 U[web][and] 條款細則 私隱保障 press back does not go back to app
 
-[cms] Admin Chat layout
-[cms] Property Info layout
+[cms] Apply table field order
 
-------------------------Delay------------------------
+------------------------Followup------------------------
 [uni] handling for deleted properties:
     no longer available on front page
     no longer available for search
     send admin chat message with push notification to all related users to announce that the property has been removed
 [ser] 期 座 number prefix with 0 should not be removed
+[cms] Admin Chat layout
 
 ------------------------Testing------------------------
 [and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
-[uni] 30day top price sorting not correct, should be descending using 買家還價
+[uni] 30day top price should be descending using 買家還價
 [ser] algolia address without English name not displayed correctly
 [uni] not following latest price negotiation logic
+[ser] first admin message duplication (see id 213,214 & 216,217)
+[ser] push notif down
 
 ------------------------Resolved------------------------
-[ser] simplified chinese search not working
+[and] banner details photos not cached
+[and] 我的最愛 should not show 0套房, unify with iOS
+[and] my properties -> edit -> remove property -> property still sticks around with no content
+20170901 [ios] my fav -> conversation -> press 訊息 ↑ button, the button to the left of the message input box should be 還價 instead of 叫價
+20170831 [ser] simplified chinese search not working
 20170830 [and] not registered -> search -> property details -> send message -> go to registration page
 20170830 [uni] always display 線上服務櫃檯
 20170830 [ios] 修改樓盤資料 -> 租約期至 cannot be correctly changed
@@ -63,4 +64,5 @@ U[web][and] 條款細則 私隱保障 press back does not go back to app
 20170829 [web] update phone section
 
 ------------------------LeaveForNow------------------------
+[and] my properties should default go to the last opened like iOS, at least remember before app close
 [ser] 修改售價 change, change all negotiation 叫價 price
