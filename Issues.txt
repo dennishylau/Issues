@@ -16,6 +16,10 @@ U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增
 [web] update phone number to 23832830
 [web] investigate internal server error 500
 U[web][and] 條款細則 私隱保障 press back does not go back to app
+[uni] when the second property is put up for sale, message could not be read from the first one. Both properties will be shown at the same time.
+U[ios] under 我的放盤/訊息議價/XX買家/訊息, the button 叫價 on the line of 訊息 should be framed as a button same as in android.
+[and] under 我的放盤, to select one of the properties for sale, pressing the property at red (the one being shown) has no effect. It should go to the one being pressed as in the ios.
+[uni] the messages sent by the users are in red while the message received are white. Reverse the colours to attract attention.
 
 [cms] Apply table field order
 
@@ -26,7 +30,7 @@ U[web][and] 條款細則 私隱保障 press back does not go back to app
     send admin chat message with push notification to all related users to announce that the property has been removed
 [ser] 期 座 number prefix with 0 should not be removed
 [cms] Admin Chat layout
-
+[ser] how to handle places in particular villages that could not be found e.g. 五塊田,白石台.  
 ------------------------Testing------------------------
 [and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
 [uni] 30day top price should be descending using 買家還價
