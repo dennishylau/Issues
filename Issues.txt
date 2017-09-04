@@ -17,6 +17,11 @@ U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增
 [web] investigate internal server error 500
 U[web][and] 條款細則 私隱保障 press back does not go back to app
 
+[ser] from searching 山村道45-47號
+    inaccurate address DB current: 22.268998, 114.185146
+    accurate manual from gmaps 22.268399, 114.186038
+    accurate coordinate from https://www.gps-coordinates.net: 22.2683996,114.18603810000002
+
 [cms] Apply table field order
 
 ------------------------Followup------------------------
