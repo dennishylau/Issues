@@ -6,6 +6,7 @@ P Partially fixed, new information added
 ------------------------Current------------------------
 
 [uni] switch corresponding message box color
+[uni] Show text under maps [注意：Google地圖顯示位置只供參考，要取得物業準確位置，請跟業主直接聯絡。]
 
 [ios] cannot view message
 U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
@@ -19,7 +20,6 @@ U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增
 U[web][and] 條款細則 私隱保障 press back does not go back to app
 
 [ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
-[ser] push notif reliability
 [ser] user id change to using number
 [ser] from searching 山村道45-47號
     inaccurate address DB current: 22.268998, 114.185146
@@ -42,7 +42,7 @@ U[web][and] 條款細則 私隱保障 press back does not go back to app
 [ser] algolia address without English name not displayed correctly
 [uni] not following latest price negotiation logic
 [ser] first admin message duplication (see id 213,214 & 216,217)
-[ser] push notif down
+[ser] push notif reliability
 
 ------------------------Resolved------------------------
 [uni] my fav -> search, after pressing keyboard search button, keep search input field open until cancel is pressed
