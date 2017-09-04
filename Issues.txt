@@ -5,8 +5,9 @@ P Partially fixed, new information added
 
 ------------------------Current------------------------
 
-[uni] my fav -> search, after pressing keyboard search button, keep search input field open until cancel is pressed
+[uni] switch corresponding message box color
 
+[ios] cannot view message
 U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
 
 *[and] Soft Deleted property ghosting in my fav
@@ -16,11 +17,10 @@ U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增
 [web] update phone number to 23832830
 [web] investigate internal server error 500
 U[web][and] 條款細則 私隱保障 press back does not go back to app
-[uni] when the second property is put up for sale, message could not be read from the first one. Both properties will be shown at the same time.
-U[ios] under 我的放盤/訊息議價/XX買家/訊息, the button 叫價 on the line of 訊息 should be framed as a button same as in android.
-[and] under 我的放盤, to select one of the properties for sale, pressing the property at red (the one being shown) has no effect. It should go to the one being pressed as in the ios.
-[uni] the messages sent by the users are in red while the message received are white. Reverse the colours to attract attention.
 
+[ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
+[ser] push notif reliability
+[ser] user id change to using number
 [ser] from searching 山村道45-47號
     inaccurate address DB current: 22.268998, 114.185146
     accurate manual from gmaps 22.268399, 114.186038
@@ -45,6 +45,8 @@ U[ios] under 我的放盤/訊息議價/XX買家/訊息, the button 叫價 on the
 [ser] push notif down
 
 ------------------------Resolved------------------------
+[uni] my fav -> search, after pressing keyboard search button, keep search input field open until cancel is pressed
+20170904 [ios] under 我的放盤/訊息議價/XX買家/訊息, the button 叫價 on the line of 訊息 should be framed as a button same as in android.
 20170901 [uni] my fav -> search not working
 20170901 [ios] update about -> build number with date
 20170901 [ios] 我的放盤 -> 封存 -> 再按出現 編輯 -> 再按出現 取消
