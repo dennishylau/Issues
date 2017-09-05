@@ -11,6 +11,9 @@ P Partially fixed, new information added
 [ios] crash with pi.id 101 in my fav and property soft deleted
 [ios] cannot view message
 U[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
+*[ios] Under 議價 as a seller, sending out a figure will appear twice in the display. Display back to normal after switching out of and then return to 議價 again
+*[ios] Under 議價, cannot enter any figures into 億
+[ios] highlight the button 叫價 on the left of the 訊息 when discussing with a buyer
 
 *[and] is_available display messed up after adding two new properties, one is_available true and one false, pi.id 107 108
 [and] Soft Deleted property ghosting in my fav
@@ -38,6 +41,7 @@ U[web][and] 條款細則 私隱保障 press back does not go back to app
 [ser] 期 座 number prefix with 0 should not be removed
 [cms] Admin Chat layout
 [ser] how to handle places in particular villages that could not be found e.g. 五塊田,白石台.  
+*[and] under ios, the message 您和此買家的議價不會對其他買家公間 appears on the 訊息議價. There is no such message in android.
 ------------------------Testing------------------------
 [and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
 [uni] 30day top price should be descending using 買家還價
