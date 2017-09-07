@@ -8,6 +8,7 @@ P Partially fixed, new information added
 [uni] switch corresponding message box color
 [uni] Show text under maps [注意：Google地圖顯示位置只供參考，要取得物業準確位置，請跟業主直接聯絡。]
 
+*[ios] springboard badge does not update automatically without opening app
 [ios] crash with pi.id 101 in my fav and property soft deleted
 [ios] cannot view message
 [ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
