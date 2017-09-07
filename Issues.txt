@@ -25,6 +25,7 @@ P Partially fixed, new information added
 [web] investigate internal server error 500
 U[web][and] 條款細則 私隱保障 press back does not go back to app
 
+[ser] when adding new property, selecting address suggestion with only english name will return no results
 [ser] is_coor_gen false even if property has coordinates
 [ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
 [ser] user id change to using number
