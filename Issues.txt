@@ -32,30 +32,30 @@ P Partially fixed, new information added
 
 ------------------------Resolved------------------------
 
-[uni] 30day top price should be descending using 買家還價
-[uni] not following latest price negotiation logic
-[uni] switch corresponding message box color
-[uni] Show text under maps [注意：Google地圖顯示位置只供參考，要取得物業準確位置，請跟業主直接聯絡。]
-[ios] sometimes not showing???; before:[Under 議價 as a seller, sending out a figure will appear twice in the display. Display back to normal after switching out of and then return to 議價 again]
-[ios] crash with pi.id 101 in my fav and property soft deleted
-[ios] cannot view message
-[ios] Under 議價, cannot enter any figures into 億
-[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
-[ios] springboard badge does not update automatically without opening app
-[and] Soft Deleted property ghosting in my fav
-[and] under ios, the message 您和此買家的議價不會對其他買家公間 appears on the 訊息議價. There is no such message in android.
-[web] update useful advice and useful links
-[web] remove bottom white space
-[web] update phone number to 23832830
-[web] investigate internal server error 500
-[web][and] 條款細則 私隱保障 press back does not go back to app
-[cms] Apply table field order
-[ser] 期 座 number prefix with 0 should not be removed
-[ser] user id change to using number
-[ser] algolia address without English name not displayed correctly
-[ser] is_coor_gen false even if property has coordinates
-[ser] when adding new property, selecting address suggestion with only english name will return no results
-[ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
+20170908 [uni] 30day top price should be descending using 買家還價
+20170908 [uni] not following latest price negotiation logic
+20170908 [uni] switch corresponding message box color
+20170908 [uni] Show text under maps [注意：Google地圖顯示位置只供參考，要取得物業準確位置，請跟業主直接聯絡。]
+20170908 [ios] sometimes not showing???; before:[Under 議價 as a seller, sending out a figure will appear twice in the display. Display back to normal after switching out of and then return to 議價 again]
+20170908 [ios] crash with pi.id 101 in my fav and property soft deleted
+20170908 [ios] cannot view message
+20170908 [ios] Under 議價, cannot enter any figures into 億
+20170908 [ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
+20170908 [ios] springboard badge does not update automatically without opening app
+20170908 [and] Soft Deleted property ghosting in my fav
+20170908 [and] under ios, the message 您和此買家的議價不會對其他買家公間 appears on the 訊息議價. There is no such message in android.
+20170908 [web] update useful advice and useful links
+20170908 [web] remove bottom white space
+20170908 [web] update phone number to 23832830
+20170908 [web] investigate internal server error 500
+20170908 [web][and] 條款細則 私隱保障 press back does not go back to app
+20170908 [cms] Apply table field order
+20170908 [ser] 期 座 number prefix with 0 should not be removed
+20170908 [ser] user id change to using number
+20170908 [ser] algolia address without English name not displayed correctly
+20170908 [ser] is_coor_gen false even if property has coordinates
+20170908 [ser] when adding new property, selecting address suggestion with only english name will return no results
+20170908 [ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
 
 20170904 [ios] under 我的放盤/訊息議價/XX買家/訊息, the button 叫價 on the line of 訊息 should be framed as a button same as in android.
 20170901 [uni] my fav -> search not working
