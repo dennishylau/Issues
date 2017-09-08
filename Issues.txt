@@ -5,60 +5,58 @@ P Partially fixed, new information added
 
 ------------------------Current------------------------
 
-[uni] switch corresponding message box color
-[uni] Show text under maps [注意：Google地圖顯示位置只供參考，要取得物業準確位置，請跟業主直接聯絡。]
-
-*[ios] springboard badge does not update automatically without opening app
-[ios] crash with pi.id 101 in my fav and property soft deleted
-[ios] cannot view message
-[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
-[ios] Under 議價 as a seller, sending out a figure will appear twice in the display. Display back to normal after switching out of and then return to 議價 again
-[ios] Under 議價, cannot enter any figures into 億
-[ios] highlight the button 叫價 on the left of the 訊息 when discussing with a buyer
-
-[and] 盤號 not always showing
-[and] is_available display messed up after adding two new properties, one is_available true and one false, pi.id 107 108
-[and] Soft Deleted property ghosting in my fav
-
-[web] update useful advice and useful links
-[web] remove bottom white space
-[web] update phone number to 23832830
-[web] investigate internal server error 500
-U[web][and] 條款細則 私隱保障 press back does not go back to app
-
 *[ser] search main neighbourhood not returning properties in small neighbourhood
+*[ser] push notif reliability
 [ser] top level address search secondary grey text should use estate_address_zh instead of address_zh
 [ser] top level address search only address with grouping are showing district
-[ser] when adding new property, selecting address suggestion with only english name will return no results
-[ser] is_coor_gen false even if property has coordinates
-[ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
-[ser] user id change to using number
-[ser] from searching 山村道45-47號
-    inaccurate address DB current: 22.268998, 114.185146
-    accurate manual from gmaps 22.268399, 114.186038
-    accurate coordinate from https://www.gps-coordinates.net: 22.2683996,114.18603810000002
-
-[cms] Apply table field order
 
 ------------------------Followup------------------------
+
 [uni] handling for deleted properties:
     no longer available on front page
     no longer available for search
     send admin chat message with push notification to all related users to announce that the property has been removed
-[ser] 期 座 number prefix with 0 should not be removed
 [cms] Admin Chat layout
 [ser] how to handle places in particular villages that could not be found e.g. 五塊田,白石台.  
-*[and] under ios, the message 您和此買家的議價不會對其他買家公間 appears on the 訊息議價. There is no such message in android.
+[ser] Some address with same name_zh may have wrong coordinate e.g. 雅仕閣, 山村道45-47號, Hong Kong
+    inaccurate address DB current: 22.268998, 114.185146
+    accurate coordinate https://www.gps-coordinates.net: 22.2683996,114.18603810000002
+
 ------------------------Testing------------------------
+
+[uni] my fav -> search, after pressing keyboard search button, keep search input field open until cancel is pressed
+[and] 盤號 not always showing
+[and] is_available display messed up after adding two new properties, one is_available true and one false, pi.id 107 108
 [and/sam] not registered -> sign up -> open first message notif -> press back nothing happens
-[uni] 30day top price should be descending using 買家還價
-[ser] algolia address without English name not displayed correctly
-[uni] not following latest price negotiation logic
 [ser] first admin message duplication (see id 213,214 & 216,217)
-[ser] push notif reliability
 
 ------------------------Resolved------------------------
-[uni] my fav -> search, after pressing keyboard search button, keep search input field open until cancel is pressed
+
+[uni] 30day top price should be descending using 買家還價
+[uni] not following latest price negotiation logic
+[uni] switch corresponding message box color
+[uni] Show text under maps [注意：Google地圖顯示位置只供參考，要取得物業準確位置，請跟業主直接聯絡。]
+[ios] sometimes not showing???; before:[Under 議價 as a seller, sending out a figure will appear twice in the display. Display back to normal after switching out of and then return to 議價 again]
+[ios] crash with pi.id 101 in my fav and property soft deleted
+[ios] cannot view message
+[ios] Under 議價, cannot enter any figures into 億
+[ios] Change button: 沒有所需的搜尋結果，回到手動添加 -> 新增地址（可能需時審核）
+[ios] springboard badge does not update automatically without opening app
+[and] Soft Deleted property ghosting in my fav
+[and] under ios, the message 您和此買家的議價不會對其他買家公間 appears on the 訊息議價. There is no such message in android.
+[web] update useful advice and useful links
+[web] remove bottom white space
+[web] update phone number to 23832830
+[web] investigate internal server error 500
+[web][and] 條款細則 私隱保障 press back does not go back to app
+[cms] Apply table field order
+[ser] 期 座 number prefix with 0 should not be removed
+[ser] user id change to using number
+[ser] algolia address without English name not displayed correctly
+[ser] is_coor_gen false even if property has coordinates
+[ser] when adding new property, selecting address suggestion with only english name will return no results
+[ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
+
 20170904 [ios] under 我的放盤/訊息議價/XX買家/訊息, the button 叫價 on the line of 訊息 should be framed as a button same as in android.
 20170901 [uni] my fav -> search not working
 20170901 [ios] update about -> build number with date
@@ -90,5 +88,6 @@ U[web][and] 條款細則 私隱保障 press back does not go back to app
 20170829 [web] update phone section
 
 ------------------------LeaveForNow------------------------
+
 [and] my properties should default go to the last opened like iOS, at least remember before app close
 [ser] 修改售價 change, change all negotiation 叫價 price
