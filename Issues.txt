@@ -6,10 +6,9 @@ P Partially fixed, new information added
 ------------------------Current------------------------
 
 *[uni] push all code to updated repository under my account
-*[ios] hide tab bar in webview
+*[ios] hide tab bar in webview; apply patch
 *[and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found
 *[web] http://resbo.com.hk/UsefulLinks footer should use position: absolute; bottom: 0
-[uni] change line of text under referrer phone number input field "注意：您不能更改您的介紹人。" change to "注意：您不能更改您的介紹人，而介紹人和帳戶申請人不可為同一人。"
 [ser] push notif reliability
 [ser] top level address search only address with grouping are showing district
 
@@ -35,6 +34,7 @@ P Partially fixed, new information added
 
 ------------------------Resolved------------------------
 
+20170915 [uni] change line of text under referrer phone number input field "注意：您不能更改您的介紹人。" change to "注意：您不能更改您的介紹人，而介紹人和帳戶申請人不可為同一人。"
 20170915 SMS verification phone number not correct
 20170914 [ser] search main neighbourhood not returning properties in small neighbourhood
 20170914 [ser] top level address search secondary grey text should use estate_address_zh instead of address_zh
@@ -62,7 +62,6 @@ P Partially fixed, new information added
 20170908 [ser] is_coor_gen false even if property has coordinates
 20170908 [ser] when adding new property, selecting address suggestion with only english name will return no results
 20170908 [ser] my property with more than one property, cannot view message: open message, confirm in property A, go to details, confirm in property A, switch to property B, go to message, check property
-
 20170904 [ios] under 我的放盤/訊息議價/XX買家/訊息, the button 叫價 on the line of 訊息 should be framed as a button same as in android.
 20170901 [uni] my fav -> search not working
 20170901 [ios] update about -> build number with date
