@@ -5,9 +5,12 @@ P Partially fixed, new information added
 
 ------------------------Current------------------------
 
-*[ser] search main neighbourhood not returning properties in small neighbourhood
-*[ser] push notif reliability
-[ser] top level address search secondary grey text should use estate_address_zh instead of address_zh
+*[uni] push all code to updated repository under my account
+*[ios] hide tab bar in webview
+*[and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found
+*[web] http://resbo.com.hk/UsefulLinks footer should use position: absolute; bottom: 0
+[uni] change line of text under referrer phone number input field "注意：您不能更改您的介紹人。" change to "注意：您不能更改您的介紹人，而介紹人和帳戶申請人不可為同一人。"
+[ser] push notif reliability
 [ser] top level address search only address with grouping are showing district
 
 ------------------------Followup------------------------
@@ -32,6 +35,9 @@ P Partially fixed, new information added
 
 ------------------------Resolved------------------------
 
+20170915 SMS verification phone number not correct
+20170914 [ser] search main neighbourhood not returning properties in small neighbourhood
+20170914 [ser] top level address search secondary grey text should use estate_address_zh instead of address_zh
 20170908 [uni] 30day top price should be descending using 買家還價
 20170908 [uni] not following latest price negotiation logic
 20170908 [uni] switch corresponding message box color
