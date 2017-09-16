@@ -7,13 +7,14 @@ P Partially fixed, new information added
 
 *[uni] push all code to updated repository under my account
 *[ios] hide tab bar in webview; apply patch
-*[and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found
+*[and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found; doc https://developer.android.com/reference/android/webkit/WebViewClient.html#shouldOverrideUrlLoading(android.webkit.WebView,%20android.webkit.WebResourceRequest)
 *[web] http://resbo.com.hk/UsefulLinks footer should use position: absolute; bottom: 0
 [ser] push notif reliability
 [ser] top level address search only address with grouping are showing district
 
 ------------------------Followup------------------------
 
+*[ios] UI not displayed using the entire screen on iPhone X
 [uni] handling for deleted properties:
     no longer available on front page
     no longer available for search
