@@ -5,11 +5,15 @@ P Partially fixed, new information added
 
 ------------------------Current------------------------
 
-*[uni] push all code to updated repository under my account.
-*[ios] UI not displayed using the entire screen on iPhone X
-*[ios] hide tab bar in webview; apply patch attahced
-*[and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found; doc https://developer.android.com/reference/android/webkit/WebViewClient.html#shouldOverrideUrlLoading(android.webkit.WebView,%20android.webkit.WebResourceRequest)
-*[web] See http://resbo.com.hk/UsefulLinks footer should stick to the bottom, maybe use position: absolute; bottom: 0
+*[web] when opened on ios, links to apple store instead of app store
+*[web] when opened on android devices, no app install banner shown
+*[cms] system messages put is_read at the front column and give me a batch is_read = true button
+*[ser] nexmo not stable with +86 chinese numbers
+[uni] push all code to updated repository under my account.
+[ios] UI not displayed using the entire screen on iPhone X
+[ios] hide tab bar in webview; apply patch attahced
+[and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found; doc https://developer.android.com/reference/android/webkit/WebViewClient.html#shouldOverrideUrlLoading(android.webkit.WebView,%20android.webkit.WebResourceRequest)
+[web] See http://resbo.com.hk/UsefulLinks footer should stick to the bottom, maybe use position: absolute; bottom: 0
 [ser] push notif reliability
 [ser] top level address search only address with grouping are showing district
 
