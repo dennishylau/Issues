@@ -5,15 +5,12 @@ P Partially fixed, new information added
 
 ------------------------Current------------------------
 
-*[web] when opened on ios, links to apple store instead of app store
-*[web] when opened on android devices, no app install banner shown
-*[cms] system messages put is_read at the front column and give me a batch is_read = true button
-*[ser] nexmo not stable with +86 chinese numbers
-[uni] push all code to updated repository under my account.
+*[web] Url scheme not correct, use NT762415 instead of id http://resbo.com.hk/PropertyDetails/132
+*[web] no share button
+*[web] url does not redirect to app on mobile
+[web] when opened on android devices, no app install banner shown
+[ser] nexmo not stable with +86 chinese numbers
 [ios] UI not displayed using the entire screen on iPhone X
-[ios] hide tab bar in webview; apply patch attahced
-[and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found; doc https://developer.android.com/reference/android/webkit/WebViewClient.html#shouldOverrideUrlLoading(android.webkit.WebView,%20android.webkit.WebResourceRequest)
-[web] See http://resbo.com.hk/UsefulLinks footer should stick to the bottom, maybe use position: absolute; bottom: 0
 [ser] push notif reliability
 [ser] top level address search only address with grouping are showing district
 
@@ -39,6 +36,11 @@ P Partially fixed, new information added
 
 ------------------------Resolved------------------------
 
+20171002 [and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found; doc https://developer.android.com/reference/android/webkit/WebViewClient.html#shouldOverrideUrlLoading(android.webkit.WebView,%20android.webkit.WebResourceRequest)
+20171002 [ios] hide tab bar in webview; apply patch attahced
+20171002 [uni] push all code to updated repository under my account.
+20171002 [cms] system messages put is_read at the front column and give me a batch is_read = true button
+20171002 [web] when opened on ios, links to apple store instead of app store
 20170915 [uni] change line of text under referrer phone number input field "注意：您不能更改您的介紹人。" change to "注意：您不能更改您的介紹人，而介紹人和帳戶申請人不可為同一人。"
 20170915 SMS verification phone number not correct
 20170914 [ser] search main neighbourhood not returning properties in small neighbourhood
@@ -101,3 +103,4 @@ P Partially fixed, new information added
 
 [and] my properties should default go to the last opened like iOS, at least remember before app close
 [ser] 修改售價 change, change all negotiation 叫價 price
+[web] See http://resbo.com.hk/UsefulLinks footer should stick to the bottom, maybe use position: absolute; bottom: 0; 20171002 sounds good, doesn't work
