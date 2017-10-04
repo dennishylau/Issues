@@ -5,14 +5,35 @@ P Partially fixed, new information added
 
 ------------------------Current------------------------
 
-*[web] Url scheme not correct, use NT762415 instead of id http://resbo.com.hk/PropertyDetails/132
-*[web] no share button
-*[web] url does not redirect to app on mobile
-[web] when opened on android devices, no app install banner shown
-[ser] nexmo not stable with +86 chinese numbers
+High Priority
+[ios] admin chat not working, does not receive nor send
+[ios] 交吉 not filtering 連租約 correctly
+[and] admin message takes a long time to receive when in messaging screen
+[ser] cms down, Elastic Beanstalk is updating your environment {2017-10-02 145351.zip}
+[ser] filter 浴廁總數 result incorrect, should be 套房 + 其餘浴室/廁所
+[cms] cms down, 502 bad gateway {2017-10-02 171500.zip; 2017-10-02 183129.zip}
+
+Mid Priority
+*[and] increase message box maximum width
+[ios] only show 意見反映 and 技術支援 when signed in
+[web] share button not showing on mobile
+[web] Url scheme not correct, use NT762415 instead of id 132, see http://resbo.com.hk/PropertyDetails/132
+[web] opening url on mobile browser does not redirect to app on mobile
+[ser] algolia_index: AddressName should return "neighborhood " + "name_zh"
+    20170908 2118 {[ser] top level address search only address with grouping are showing district}
+[ser] set welcome message is_read to true
+[cms] admin chat table show sender before content
+
+Low Priority
+*[ios] sometimes the old number keyboard is called out during SMS verification {20171003 ios number keyboard.MOV}
+*[ios] home banner cache not updated correctly, position incorrect when offline
+*[ios] Faq question falls out when too long, should break line instead
+*[web] when compiling, " becomes full character width 全形
+*[web] 售價低於 -> 預算
 [ios] UI not displayed using the entire screen on iPhone X
+[web] when opened on android devices, no app install banner shown
+[ser] SMS verification not stable with +86 chinese numbers
 [ser] push notif reliability
-[ser] top level address search only address with grouping are showing district
 
 ------------------------Followup------------------------
 
