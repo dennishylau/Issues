@@ -6,6 +6,9 @@ P Partially fixed, new information added
 ------------------------Current------------------------
 
 High Priority
+*[ser] 翔龍灣 algolia block missing
+*[uni] Add loading animation for algolia
+*[ios] Message keyboard send button does not work
 [ios] admin chat not working, does not receive nor send
 [ios] 交吉 not filtering 連租約 correctly
 [and] admin message takes a long time to receive when in messaging screen
