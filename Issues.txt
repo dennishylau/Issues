@@ -6,37 +6,40 @@ P Partially fixed, new information added
 ------------------------Current------------------------
 
 High Priority
-*[ser] 翔龍灣 algolia block missing
-*[uni] Add loading animation for algolia
-*[ios] Message keyboard send button does not work
-[ios] admin chat not working, does not receive nor send
-[ios] 交吉 not filtering 連租約 correctly
+[ios][iX] home page navigationbar title not centered
+[ios][iX] Before sale page navigationbar positioned too high
+[ios][iX] add proeprty listing page keyboard positioned too low
+[ios][iX] property details photos fullscreen display cannot press x to quit
+[ios][iX] property details share and add to favorite button too low
+[ios][iX] chat screen price neogtiation and messaging button positioned too low
+[ios][iX] messaging keyboard not showing
+[ios][iX] admin chat textfield not showing
+[ios][iX] 我的放盤 -> 封存 -> 封存 button positioned too low
+[ser] algolia search slow
 [and] admin message takes a long time to receive when in messaging screen
-[ser] cms down, Elastic Beanstalk is updating your environment {2017-10-02 145351.zip}
-[ser] filter 浴廁總數 result incorrect, should be 套房 + 其餘浴室/廁所
-[cms] cms down, 502 bad gateway {2017-10-02 171500.zip; 2017-10-02 183129.zip}
 
 Mid Priority
-*[and] increase message box maximum width
+[ser] setup aws for snapshots in case server is down
+[and] increase message box maximum width
 [ios] only show 意見反映 and 技術支援 when signed in
-[web] share button not showing on mobile
+[web] open in app button
+[web] swiper change slide button missing
 [web] Url scheme not correct, use NT762415 instead of id 132, see http://resbo.com.hk/PropertyDetails/132
-[web] opening url on mobile browser does not redirect to app on mobile
 [ser] algolia_index: AddressName should return "neighborhood " + "name_zh"
     20170908 2118 {[ser] top level address search only address with grouping are showing district}
 [ser] set welcome message is_read to true
 [cms] admin chat table show sender before content
 
 Low Priority
-*[ios] sometimes the old number keyboard is called out during SMS verification {20171003 ios number keyboard.MOV}
-*[ios] home banner cache not updated correctly, position incorrect when offline
-*[ios] Faq question falls out when too long, should break line instead
-*[web] when compiling, " becomes full character width 全形
-*[web] 售價低於 -> 預算
-[ios] UI not displayed using the entire screen on iPhone X
+[ios] sometimes the old number keyboard is called out during SMS verification {20171003 ios number keyboard.MOV}
+[ios] home banner cache not updated correctly, position incorrect when offline
+[ios] Faq question falls out when too long, should break line instead
+[web] when compiling, " becomes full character width 全形
+[web] 售價低於 -> 預算
 [web] when opened on android devices, no app install banner shown
 [ser] SMS verification not stable with +86 chinese numbers
 [ser] push notif reliability
+*[ser] add Vulgur filter
 
 ------------------------Followup------------------------
 
@@ -60,6 +63,14 @@ Low Priority
 
 ------------------------Resolved------------------------
 
+[uni] Add loading animation for algolia
+[ios] admin chat not working, does not receive nor send
+[ios] Message keyboard send button does not work
+[ios] 交吉 not filtering 連租約 correctly
+[ser] 翔龍灣 algolia block missing
+[ser] filter 浴廁總數 result incorrect, should be 套房 + 其餘浴室/廁所
+[ser] cms down, Elastic Beanstalk is updating your environment {2017-10-02 145351.zip}
+[cms] cms down, 502 bad gateway {2017-10-02 171500.zip; 2017-10-02 183129.zip}
 20171002 [and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found; doc https://developer.android.com/reference/android/webkit/WebViewClient.html#shouldOverrideUrlLoading(android.webkit.WebView,%20android.webkit.WebResourceRequest)
 20171002 [ios] hide tab bar in webview; apply patch attahced
 20171002 [uni] push all code to updated repository under my account.
