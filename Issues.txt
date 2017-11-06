@@ -6,40 +6,49 @@ P Partially fixed, new information added
 ------------------------Current------------------------
 
 High Priority
-[ios][iX] home page navigationbar title not centered
-[ios][iX] Before sale page navigationbar positioned too high
-[ios][iX] add proeprty listing page keyboard positioned too low
-[ios][iX] property details photos fullscreen display cannot press x to quit
-[ios][iX] property details share and add to favorite button too low
-[ios][iX] chat screen price neogtiation and messaging button positioned too low
-[ios][iX] messaging keyboard not showing
-[ios][iX] admin chat textfield not showing
-[ios][iX] 我的放盤 -> 封存 -> 封存 button positioned too low
-[ser] algolia search slow
-[and] admin message takes a long time to receive when in messaging screen
+*20171104 [and] filter 顯示進階選項(已選) counter does not count 歡迎經紀查詢 = 是
+*20171104 Why some users do not receive welcome message
+*20171104 why can sign in count of a user be 0???
+*20171103 [ios] admin chat message does not fetch automatically in messaging screen / socket does not work, have to go back to my fav main screen for it to refresh
+*20171103 [ios] in filter screen, reduce 預算 and 實用面積大於 slider bar width to avoid triggering gesture recogniser on the left edge of the screen
+*20171103 [ios] on home screen, star button state does not update after pressing button
+*20171102 [ios] sharing deeplink (e.g. whatsapp) no preview
+*20171027 Android my property still showing after soft delete by admin (tested with property 120)
+20171026 When user is not logged in, property does not actually gets listed
+20171024 [ios] when offline, all property chat in my favorite displays content of admin chat
+20171017 [ios][iX] home page navigationbar title not centered
+20171017 [ios][iX] Before sale page navigationbar positioned too high
+20171017 [ios][iX] add proeprty listing page keyboard positioned too low
+20171017 [ios][iX] property details photos fullscreen display cannot press x to quit
+20171017 [ios][iX] property details share and add to favorite button too low
+20171017 [ios][iX] chat screen price neogtiation and messaging button positioned too low
+20171017 [ios][iX] messaging keyboard not showing
+20171017 [ios][iX] admin chat textfield not showing
+20171017 [ios][iX] 我的放盤 -> 封存 -> 封存 button positioned too low
 
 Mid Priority
-[ser] setup aws for snapshots in case server is down
-[and] increase message box maximum width
-[ios] only show 意見反映 and 技術支援 when signed in
-[web] open in app button
-[web] swiper change slide button missing
-[web] Url scheme not correct, use NT762415 instead of id 132, see http://resbo.com.hk/PropertyDetails/132
-[ser] algolia_index: AddressName should return "neighborhood " + "name_zh"
+20171024 [ios] 我的放盤 -> 封存 -> 再按出現 編輯 -> 再按出現 取消; similar problem with my fav -> 編輯
+20171017 [ser] setup aws for snapshots in case server is down
+20171017 [and] increase message box maximum width
+20171003 [ios] only show 意見反映 and 技術支援 when signed in
+20171003 [web] open in app button
+20171003 [web] swiper change slide button missing
+20171003 [ser] algolia_index: AddressName should return "neighborhood " + "name_zh"
     20170908 2118 {[ser] top level address search only address with grouping are showing district}
-[ser] set welcome message is_read to true
-[cms] admin chat table show sender before content
+20171003 [cms] admin chat table show sender before content
 
 Low Priority
-[ios] sometimes the old number keyboard is called out during SMS verification {20171003 ios number keyboard.MOV}
-[ios] home banner cache not updated correctly, position incorrect when offline
-[ios] Faq question falls out when too long, should break line instead
-[web] when compiling, " becomes full character width 全形
-[web] 售價低於 -> 預算
-[web] when opened on android devices, no app install banner shown
-[ser] SMS verification not stable with +86 chinese numbers
-[ser] push notif reliability
-*[ser] add Vulgur filter
+*20171104 [and] property details should be 十分鐘內到港鐵站 instead of ...地鐵站
+*20171104 [and] filter 歡迎經紀查詢 option 有 change to 是
+*20171104 [and] make report property screen work just like iOS, with "我們對濫用..." on the very top and "舉報放盤-<PropertyReferenceNo>" as title
+20171003 [ios] sometimes the old number keyboard is called out during SMS verification {20171003 ios number keyboard.MOV}
+20171003 [ios] home banner cache not updated correctly, position incorrect when offline
+20171003 [ios] Faq question falls out when too long, should break line instead
+20171003 [web] 售價低於 -> 預算
+20171003 [web] when opened on android devices, no app install banner shown
+20171003 [ser] SMS verification not stable with +86 chinese numbers
+20171003 [ser] push notif reliability
+20171003 [ser] add Vulgur filter
 
 ------------------------Followup------------------------
 
@@ -52,6 +61,8 @@ Low Priority
 [ser] Some address with same name_zh may have wrong coordinate e.g. 雅仕閣, 山村道45-47號, Hong Kong
     inaccurate address DB current: 22.268998, 114.185146
     accurate coordinate https://www.gps-coordinates.net: 22.2683996,114.18603810000002
+[web] when compiling, " becomes full character width 全形
+[and] admin message takes a long time to receive when in messaging screen
 
 ------------------------Testing------------------------
 
@@ -62,15 +73,18 @@ Low Priority
 [ser] first admin message duplication (see id 213,214 & 216,217)
 
 ------------------------Resolved------------------------
-
-[uni] Add loading animation for algolia
-[ios] admin chat not working, does not receive nor send
-[ios] Message keyboard send button does not work
-[ios] 交吉 not filtering 連租約 correctly
-[ser] 翔龍灣 algolia block missing
-[ser] filter 浴廁總數 result incorrect, should be 套房 + 其餘浴室/廁所
-[ser] cms down, Elastic Beanstalk is updating your environment {2017-10-02 145351.zip}
-[cms] cms down, 502 bad gateway {2017-10-02 171500.zip; 2017-10-02 183129.zip}
+20171104 [uni] Support deferred deep links (https://dev.branch.io/getting-started/deep-link-routing/overview/)
+20171104 [ios] crashes after opening deeplink (works on 1.5.12 201710171700, crashes on 1.5.13 201710272029)
+20171017 [web] Url scheme not correct, use NT762415 instead of id 132, see http://resbo.com.hk/PropertyDetails/132
+20171015 [ser] algolia search slow
+20171015 [uni] Add loading animation for algolia
+20171015 [ios] admin chat not working, does not receive nor send
+20171015 [ios] Message keyboard send button does not work
+20171015 [ios] 交吉 not filtering 連租約 correctly
+20171015 [ser] 翔龍灣 algolia block missing
+20171015 [ser] filter 浴廁總數 result incorrect, should be 套房 + 其餘浴室/廁所
+20171015 [ser] cms down, Elastic Beanstalk is updating your environment {2017-10-02 145351.zip}
+20171015 [cms] cms down, 502 bad gateway {2017-10-02 171500.zip; 2017-10-02 183129.zip}
 20171002 [and] webview use shouldOverrideUrlLoading for tel and http links https://stackoverflow.com/questions/4338305/android-webview-tel-links-show-web-page-not-found; doc https://developer.android.com/reference/android/webkit/WebViewClient.html#shouldOverrideUrlLoading(android.webkit.WebView,%20android.webkit.WebResourceRequest)
 20171002 [ios] hide tab bar in webview; apply patch attahced
 20171002 [uni] push all code to updated repository under my account.
